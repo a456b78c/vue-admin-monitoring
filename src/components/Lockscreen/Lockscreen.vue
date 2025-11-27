@@ -26,7 +26,7 @@
 
       <div class="local-time">
         <div class="time">{{ hour }}:{{ minute }}</div>
-        <div class="date">{{ month }}月{{ day }}号，星期{{ week }}</div>
+        <div class="date">{{ month }} Rostik {{ day }}号, Volosheniuk{{ week }}</div>
       </div>
       <div class="computer-status">
         <span :class="{ offline: !online }" class="network">
